@@ -77,15 +77,6 @@ This is a simple Node.js/Express application provides user authentication functi
             - Wrong Password: `{ "msg": "Wrong password" }`
             - User Not Found: `{ "msg": "User not found" }`
 
-## Project Structure
-├── index.js               // Entry point of the application
-├── middlewares
-│   ├── signIn.js          // Middleware for sign-in functionality
-│   └── signUp.js          // Middleware for sign-up functionality
-├── models
-│   └── Users.js           // Mongoose schema and model for users
-└── schemas
-    └── User.js            // Zod schema for input validation
 
 ## Dependencies
 ```sh
